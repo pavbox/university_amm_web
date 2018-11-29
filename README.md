@@ -1,2 +1,20 @@
-# university_amm_web
-website for my university group, based on python
+
+## amm page
+
+```
+
+  Небольшой сайт для группы в универе. Будет содержать расписание, всякие поментки и прочее.
+  Банально для удобства. Тут проще хранить важную инфу, чем в чате.
+
+```
+
+Software stack
+
+```
+
+- Python (Django or Flask)
+- Docker
+
+- React in front
+
+```
