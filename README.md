@@ -12,9 +12,14 @@ Software stack
 
 ```
 
-- Python (Django or Flask)
+backend:
+
+- Python (Flask framework)
+- RESTful API
 - Docker
 
-- React in front
+frontend:
+
+- React (clean js)
 
 ```
