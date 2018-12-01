@@ -23,3 +23,12 @@ frontend:
 - React (clean js)
 
 ```
+
+Architecture and guides
+
+```
+
+- SOA + MVC
+- pep8 styleguides
+
+```
