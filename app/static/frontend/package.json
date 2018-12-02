@@ -1,0 +1,27 @@
+{
+  "name": "amm_frontend",
+  "version": "0.0.0",
+  "description": "frontend part of amm website project (evening 2015)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavbox/university_amm_web.git"
+  },
+  "keywords": [
+    "amm",
+    "vsu",
+    "2015"
+  ],
+  "author": "pavbox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavbox/university_amm_web/issues"
+  },
+  "homepage": "https://github.com/pavbox/university_amm_web#readme",
+  "dependencies": {
+    "node-static": "^0.7.11"
+  }
+}
