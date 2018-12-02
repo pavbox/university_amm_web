@@ -32,3 +32,12 @@ Architecture and guides
 - pep8 styleguides
 
 ```
+
+adv
+
+```
+
+- try codecov
+- try CI/CD (backend experience)
+
+```
