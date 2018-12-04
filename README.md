@@ -47,3 +47,4 @@ Feature List
 [] schedule on current semester
 [] teacher's names
 [] storage of files
+[] information for subject's exams
