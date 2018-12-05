@@ -68,12 +68,8 @@ sh controls/run.sh # run app
 
 Feature List
 
-[ ] schedule on current semester (automatic highlight if week is even)
-
-[ ] teacher's names
-
-[ ] storage of files
-
-[ ] information for subject's exams
-
-[ ] public polls
+- [ ] schedule on current semester (automatic highlight if week is even)
+- [ ] teacher's names
+- [ ] storage of files
+- [ ] information for subject's exams
+- [ ] public polls
