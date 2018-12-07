@@ -105,4 +105,4 @@ venv.bak/
 
 # ============
 # frontend part
-node_modules/
+node_modules
