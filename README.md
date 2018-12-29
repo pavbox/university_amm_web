@@ -51,6 +51,13 @@ $ virtualenv venv
 
 # run virtual environment
 $ source venv/bin/activate
+
+# check that's venv is active
+$ which python # will be in locally ./venv/bin/python
+
+# deactivate venv if needed
+$ deactivate
+
 ```
 
 Feature List
