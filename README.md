@@ -33,7 +33,7 @@ Architecture and guides
 
 ```
 
-adv
+Advanced Things
 
 ```
 
@@ -41,6 +41,16 @@ adv
 - try CI/CD (backend experience)
 - maybe python hot-reload
 
+```
+
+How to install
+
+```
+# create virtual environment for using packages and dependencies locally
+$ virtualenv venv
+
+# run virtual environment
+$ source venv/bin/activate
 ```
 
 Feature List
