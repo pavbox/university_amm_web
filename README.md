@@ -29,7 +29,7 @@ Architecture and guides
 ```
 
 - SOA + MVC
-- pep8 styleguides
+- pep8 style guides
 
 ```
 
@@ -37,7 +37,7 @@ Advanced Things
 
 ```
 
-- try codecov
+- try to use codecov
 - try CI/CD (backend experience)
 - maybe python hot-reload
 
@@ -46,6 +46,7 @@ Advanced Things
 How to install
 
 ```
+
 # create virtual environment for using packages and dependencies locally
 $ virtualenv venv
 
@@ -66,3 +67,4 @@ Feature List
 [ ] teacher's names
 [ ] storage of files
 [ ] information for subject's exams
+[ ] public polls
