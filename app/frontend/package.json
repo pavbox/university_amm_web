@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/pavbox/university_amm_web#readme",
   "dependencies": {
-    "node-static": "^0.7.11"
+    "node-static": "^0.7.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
