@@ -15,12 +15,14 @@ Software stack
 backend:
 
 - Python (Flask framework)
+- Mongo Database
 - RESTful API
 - Docker
 
 frontend:
 
 - React (native Javascript)
+- Redux router
 
 ```
 
