@@ -1,6 +1,9 @@
 from flask import Flask, request, send_from_directory, render_template
 
-app = Flask(__name__, static_folder='templates/static', template_folder='templates', static_url_path='')
+app = Flask(__name__,
+    static_folder='backend/templates/static',
+    template_folder='backend/templates',
+    static_url_path='')
 
 @app.route('/')
 @app.route('/index')
