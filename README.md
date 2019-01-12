@@ -62,9 +62,9 @@ $ which python # will be in locally ./venv/bin/python
 $ deactivate
 
 # or use scripts
-source controls/install.sh # for install dependencies
-source controls/prepare.sh # setup virtual environment and PATHs
-sh controls/run.sh # run app
+source scripts/install.sh # for install dependencies
+source scripts/prepare.sh # setup virtual environment and PATHs
+sh scripts/run.sh # run app
 
 ```
 
