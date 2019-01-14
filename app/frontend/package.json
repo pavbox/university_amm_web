@@ -10,11 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/pavbox/university_amm_web.git"
   },
-  "keywords": [
-    "amm",
-    "vsu",
-    "2015"
-  ],
+  "keywords": [ "amm", "vsu", "2015" ],
   "author": "pavbox",
   "license": "ISC",
   "bugs": {
