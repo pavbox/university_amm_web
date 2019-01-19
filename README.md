@@ -47,7 +47,7 @@ Advanced Things
 
 How to install
 
-```
+```shell
 
 # create virtual environment for using packages and dependencies locally
 $ virtualenv venv

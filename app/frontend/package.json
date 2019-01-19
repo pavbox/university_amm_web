@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/pavbox/university_amm_web.git"
   },
-  "keywords": [ "amm", "vsu", "2015" ],
+  "keywords": [
+    "amm",
+    "vsu",
+    "2015"
+  ],
   "author": "pavbox",
   "license": "ISC",
   "bugs": {
@@ -20,6 +24,7 @@
   "dependencies": {
     "node-static": "^0.7.11",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.4"
   }
 }
