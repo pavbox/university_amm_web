@@ -63,6 +63,8 @@ $ deactivate
 
 # or use scripts
 source scripts/install.sh # for install dependencies
+
+# basically you need to execute this two scripts every terminal session
 source scripts/prepare.sh # setup virtual environment and PATHs
 sh scripts/run.sh # run app
 
