@@ -22,7 +22,10 @@ backend:
 frontend:
 
 - React (native Javascript)
-- Redux router
+- Redux and router
+- _bem styles
+- webpack 4
+- stylus or css
 
 ```
 
