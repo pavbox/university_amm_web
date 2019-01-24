@@ -1,9 +1,9 @@
 const TRY_LIKE = 'TRY_LIKE'
 const IS_LIKED = 'IS_LIKED'
 
-function getPhotos(year) {
+function getLikeInfo(id) {
   return {
     type: TRY_LIKE,
-    payload: year
+    payload: id
   }
 }
