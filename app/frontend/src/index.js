@@ -10,3 +10,19 @@ ReactDOM.render(
   </div>
   , document.getElementById("root")
 )
+
+
+/*
+
+Application design
+
+
+main page
+
+- schedule board
+- week switcher
+- some widgets
+
+
+
+*/
