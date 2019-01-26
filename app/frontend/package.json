@@ -1,6 +1,6 @@
 {
   "name": "amm_frontend",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "frontend part of amm website project (evening 2015)",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/pavbox/university_amm_web.git"
   },
-  "keywords": [
-    "amm",
-    "vsu",
-    "2015"
-  ],
+  "keywords": [ "amm", "vsu", "2015" ],
   "author": "pavbox",
   "license": "ISC",
   "bugs": {

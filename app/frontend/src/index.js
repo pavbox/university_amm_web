@@ -8,4 +8,5 @@ ReactDOM.render(
     <h1>bobby</h1>
     <Button />
   </div>
-  , document.getElementById("root"))
+  , document.getElementById("root")
+)
