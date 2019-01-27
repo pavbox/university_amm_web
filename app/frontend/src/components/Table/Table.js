@@ -1,4 +1,5 @@
 import React from 'react'
+import './Table.css'
 
 class Table extends React.Component {
   constructor() {
@@ -8,7 +9,7 @@ class Table extends React.Component {
   render() {
     return (
       <div className="table">
-        <div className="row">i'm row</div>
+        <div className="table__row">i'm row</div>
       <div>
     )
   }
