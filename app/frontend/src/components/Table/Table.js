@@ -10,7 +10,7 @@ class Table extends React.Component {
     return (
       <div className="table">
         <div className="table__row">i'm row</div>
-      <div>
+      </div>
     )
   }
 }
