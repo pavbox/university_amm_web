@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/pavbox/university_amm_web.git"
   },
-  "keywords": [ "amm", "vsu", "2015" ],
+  "keywords": [
+    "amm",
+    "vsu",
+    "2015"
+  ],
   "author": "pavbox",
   "license": "ISC",
   "bugs": {
@@ -25,10 +29,13 @@
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
     "eslint": "^5.11.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "url-loader": "^1.1.2",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.1.2",
@@ -37,7 +44,6 @@
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-
     "redux": "^4.0.1",
     "react-redux": "^6.0.0"
   }
