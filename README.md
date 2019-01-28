@@ -80,3 +80,9 @@ Feature List
 - [ ] storage of files
 - [ ] information for subject's exams
 - [ ] public polls
+
+Simple task list
+
+- [ ] setup mainpage basic design by react
+- [ ] moves to stylus or postcss
+- [ ] make a plan in the notebook
