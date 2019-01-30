@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './Button.css'
+import './Button.styl'
 
 class Button extends React.Component {
   constructor() {
