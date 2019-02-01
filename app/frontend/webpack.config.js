@@ -1,13 +1,12 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.join(__dirname, '/dist'),
-    filename: 'index-bundle.js'
+    filename: 'bundle-[hash].js'
   },
   module: {
     rules: [
@@ -18,7 +17,7 @@ module.exports = {
       },
       {
         test: /\.styl$/,
-        use: [ 'style-loader', 'css-loader', 'stylus-loader' ]
+        use: [ MiniCssExtractPlugin.loader, 'css-loader', 'stylus-loader' ]
       },
       {
         test: /\.css$/,
@@ -31,8 +30,8 @@ module.exports = {
       template: './src/index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: "[name].css",
-      chunkFilename: "[id].[name]-[hash].css"
+      filename: "styles-[hash].css",
+      chunkFilename: "[id].[name].[hash].css"
     })
   ]
 };
