@@ -84,7 +84,7 @@ Feature List
 Simple task list
 
 - [ ] setup mainpage basic design by react
-- [ ] moves to stylus or postcss
+- [x] moves to stylus or postcss
 - [ ] make a plan in the notebook
 - [ ] setup webpack production/dev mode
 
