@@ -27,6 +27,4 @@ main page
 - week switcher
 - some widgets
 
-
-
 */

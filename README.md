@@ -85,7 +85,15 @@ Simple task list
 
 - [ ] setup mainpage basic design by react
 - [x] moves to stylus or postcss
-- [ ] make a plan in the notebook
+- [x] make a plan in the notebook
 - [ ] setup webpack production/dev mode
 
 MAYBE MOVE TO NODEJS INSTEAD OF PYTHON?
+
+
+### MAKE A GUIDE ABOUT CONTRIBUTING PROJECT
+
+- [ ] how to clone and start
+- [ ] list of dependencies
+- [ ] how to lint w/ atom and webpack
+- [ ] simple intro in software stack, and why using this
