@@ -8,7 +8,7 @@
 
 ```
 
-How to install
+## How to install
 
 ```shell
 
@@ -35,6 +35,7 @@ sh scripts/run.sh # run app
 
 ## DOCS for project
 
+[project info](./PROJECT_INFO.md)
 [feature list](./FEATURE_LIST.md)
 [how to contribute (guide)](./HOW_TO_CONTRIBUTE.md)
 [simple todo list (what I'm doing now)](./TODO_LIST.md)
