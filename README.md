@@ -78,3 +78,5 @@ sh scripts/run.sh # run app
 [feature list](./FEATURE_LIST.md)
 [how to contribute (guide)](./HOW_TO_CONTRIBUTE.md)
 [simple todo list (what I'm doing now)](./TODO_LIST.md)
+
+ps: maybe todo will move to issues for project.
