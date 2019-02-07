@@ -15,6 +15,7 @@
 - modern software stack
 - easy, clean code
 - API's guidelines/frameworks
+- needs to pay for one instance (only nodejs, not python server)
 
 `for python`
 
