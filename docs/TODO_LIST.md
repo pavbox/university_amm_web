@@ -5,6 +5,7 @@
 - [x] moves to stylus or postcss
 - [x] make a plan in the notebook
 - [ ] setup webpack production/dev mode
+- [ ] airbnb codestyle refactoring
 
 ### MAYBE MOVE TO NODEJS INSTEAD OF PYTHON?
 
