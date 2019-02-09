@@ -1,17 +1,17 @@
 
-import React from 'react'
-import './Button.styl'
+import React from 'react';
+import './Button.styl';
 
 class Button extends React.Component {
   constructor() {
-    super()
+    super();
   }
 
   render() {
     return (
-      <button className="button"></button>
-    )
+      <button className="button" />
+    );
   }
 }
 
-export default Button
+export default Button;

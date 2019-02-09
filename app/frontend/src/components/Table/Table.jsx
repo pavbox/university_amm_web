@@ -1,9 +1,9 @@
-import React from 'react'
-import './Table.styl'
+import React from 'react';
+import './Table.styl';
 
 class Table extends React.Component {
   constructor() {
-    super()
+    super();
   }
 
   render() {
@@ -11,8 +11,8 @@ class Table extends React.Component {
       <div className="table">
         <div className="table__row">i'm {this.props.name}</div>
       </div>
-    )
+    );
   }
 }
 
-export default Table
+export default Table;

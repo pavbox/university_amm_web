@@ -1,15 +1,12 @@
-
-import React from 'react'
+import React from 'react';
 
 class Container {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       // how to implement multiple style container?
-      <div className="container"></div>
-    )
+      <div className="container" />
+    );
   }
 }
+
+export default Container;
