@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/pavbox/university_amm_web.git"
   },
-  "keywords": [ "amm", "vsu", "2015" ],
+  "keywords": [
+    "amm",
+    "vsu",
+    "2015"
+  ],
   "author": "pavbox",
   "license": "GNU",
   "bugs": {
@@ -44,6 +48,7 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
+    "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-redux": "^6.0.1",
