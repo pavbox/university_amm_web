@@ -8,7 +8,7 @@ ReactDOM.render(
   <div>
     <h1>bobby</h1>
     <Table name="pbx row" />
-    <Button />
+    <Button value="click" />
   </div>,
   document.getElementById('root'),
 );
