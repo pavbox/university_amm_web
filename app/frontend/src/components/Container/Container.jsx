@@ -1,12 +1,7 @@
 import React from 'react';
+import './Container.styl';
 
-class Container {
-  render() {
-    return (
-      // how to implement multiple style container?
-      <div className="container" />
-    );
-  }
-}
+// how to implement multiple style container?
+const Container = () => <div className="container" />;
 
 export default Container;
