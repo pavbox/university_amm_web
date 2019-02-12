@@ -14,6 +14,8 @@ Next, go to the app/frontend folder and install dependencies via `npm i` command
 
 ### DEPENDENCIES
 
+```
+
 "devDependencies": {
   "@babel/core": "^7.3.4",
   "@babel/preset-env": "^7.3.4",
@@ -46,9 +48,11 @@ Next, go to the app/frontend folder and install dependencies via `npm i` command
   "redux": "^4.0.1"
 }
 
+```
+
 ### EXTRA LINT RULES
 
-We are using airbnb javascript codestyles
+We are using [airbnb react/javascript](https://github.com/airbnb/javascript/tree/master/react) codestyles
 
 ### SOFTWARE STACK
 
