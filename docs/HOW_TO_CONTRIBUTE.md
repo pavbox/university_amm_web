@@ -1,10 +1,20 @@
 ### MAKE A GUIDE ABOUT CONTRIBUTING PROJECT
 
 - [x] how to clone and start
-- [ ] list of dependencies
+- [x] list of dependencies
 - [ ] how to lint w/ atom and webpack
 - [ ] simple intro in software stack, and why using this
 
+## PRE-REQUIREMENTS
+
+You need setup environment with:
+
+```
+1. node + npm
+2. atom (or another text editor)
+3. es-lint plugins for editor
+
+```
 
 ## HOW TO CONTRIBUTE PROJECT
 
