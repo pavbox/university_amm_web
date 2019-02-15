@@ -74,7 +74,16 @@ Next, go to the app/frontend folder and install dependencies via `npm i` command
 
 ### EXTRA LINT RULES
 
-We are using [airbnb react/javascript](https://github.com/airbnb/javascript/tree/master/react) codestyles
+We are using [airbnb react/javascript](https://github.com/airbnb/javascript/tree/master/react) code style.
+
+### LINTER CONFIGURATION GUIDE
+
+We will use [es-linter](https://eslint.org) as manual linter of the project.
+
+Some rules:
+1. linters and presets have separate files in the root (frontend) directory.
+2. avoid mess configurations in package.json, webpack config and other.
+3. [future] lock dependencies on stable versions of plugins.
 
 ### SOFTWARE STACK
 
