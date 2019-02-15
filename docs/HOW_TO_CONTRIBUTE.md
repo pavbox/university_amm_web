@@ -80,10 +80,28 @@ We are using [airbnb react/javascript](https://github.com/airbnb/javascript/tree
 
 We will use [es-linter](https://eslint.org) as manual linter of the project.
 
+Easy way for use:
+1. Install [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+2. Install dependencies via `npx install-peerdeps --dev eslint-config-airbnb` command in the root directory.
+3. Make `.eslintrc` file in the root directory and set next configuration:
+```
+{
+    "extends": "airbnb",
+    "env": {
+        "browser": true,
+        "node": true,
+    }
+}
+```
+4. `.babelrc` has next plugins `"presets": ["@babel/preset-env", "@babel/preset-react"]`
+
+
+```
 Some rules:
 1. linters and presets have separate files in the root (frontend) directory.
 2. avoid mess configurations in package.json, webpack config and other.
 3. [future] lock dependencies on stable versions of plugins.
+```
 
 ### SOFTWARE STACK
 
