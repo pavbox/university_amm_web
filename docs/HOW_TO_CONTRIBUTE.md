@@ -81,7 +81,7 @@ We are using [airbnb react/javascript](https://github.com/airbnb/javascript/tree
 We will use [es-linter](https://eslint.org) as manual linter of the project.
 
 Easy way for use:
-1. Install [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
+1. Install [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 2. Install dependencies via `npx install-peerdeps --dev eslint-config-airbnb` command in the root directory.
 3. Make `.eslintrc` file in the root directory and set next configuration:
 ```
@@ -93,7 +93,8 @@ Easy way for use:
     }
 }
 ```
-4. `.babelrc` has next plugins `"presets": ["@babel/preset-env", "@babel/preset-react"]`
+4. `.babelrc` has next plugins `"presets": ["@babel/preset-env", "@babel/preset-react"]`.
+5. For atom you need to install next plugins: `apm install linter-eslint` (have a few dependencies).
 
 
 ```
