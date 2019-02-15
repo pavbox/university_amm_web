@@ -10,9 +10,24 @@
 You need setup environment with:
 
 ```
+
+Frontend:
+
 1. node + npm
 2. atom (or another text editor)
 3. es-lint plugins for editor
+
+Backend:
+
+1. Python v.3.5.x (and newer)
+2. Pip package manager
+3. [future] Docker, k8s containers
+
+Recommendation:
+
+Use virtual environments for install python dependencies locally.
+This way will not affect your global environment.
+You can experiment with new features safer.
 
 ```
 
