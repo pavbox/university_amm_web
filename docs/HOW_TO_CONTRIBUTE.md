@@ -2,8 +2,8 @@
 
 - [x] how to clone and start
 - [x] list of dependencies
-- [ ] how to lint w/ atom and webpack
-- [ ] simple intro in software stack, and why using this
+- [x] how to lint w/ atom and webpack
+- [x] simple intro in software stack, and why using this
 
 ## PRE-REQUIREMENTS
 
