@@ -7,10 +7,10 @@ import Table from './components/Table';
 
 ReactDOM.render(
   <div>
-    <h1>bobby</h1>
     <Container>
-      <Table name="pbx row" />
-      <Button value="click" />
+      <h1>Расписание</h1>
+      <Table name="Новый день" />
+      <Button value="action" />
     </Container>
   </div>,
   document.getElementById('root'),
