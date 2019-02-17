@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './main.styl';
+
 import Container from './components/Container';
 import Button from './components/Button';
 import Table from './components/Table';
