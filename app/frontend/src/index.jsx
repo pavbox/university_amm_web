@@ -8,9 +8,10 @@ import Table from './components/Table';
 ReactDOM.render(
   <div>
     <h1>bobby</h1>
-    <Container />
-    <Table name="pbx row" />
-    <Button value="click" />
+    <Container>
+      <Table name="pbx row" />
+      <Button value="click" />
+    </Container>
   </div>,
   document.getElementById('root'),
 );
