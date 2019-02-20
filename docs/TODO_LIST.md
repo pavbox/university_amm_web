@@ -7,6 +7,14 @@
 - [ ] setup webpack production/dev mode
 - [x] airbnb codestyle refactoring
 
+main page
+
+- [ ] create a design
+- [ ] base design realization
+- [ ] good block's decomposition
+- [ ] redux integration (or another)
+
+
 ### MAYBE MOVE TO NODEJS INSTEAD OF PYTHON?
 
 `for nodejs`
