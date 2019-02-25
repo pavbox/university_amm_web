@@ -1,13 +1,8 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: './src/index.jsx',
-  output: {
-    path: path.join(__dirname, '/dist'),
-    filename: 'bundle-[hash].js',
-  },
   resolve: {
     extensions: ['.js', '.jsx'],
   },
