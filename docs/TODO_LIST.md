@@ -5,6 +5,7 @@
 - [x] moves to stylus or postcss
 - [x] make a plan in the notebook
 - [x] setup webpack production/dev mode
+- [ ] setup more efficient prod/dev mode (minify/etc.)
 - [x] airbnb codestyle refactoring
 
 main page
@@ -13,7 +14,6 @@ main page
 - [ ] base design realization
 - [ ] good block's decomposition
 - [ ] redux integration (or another)
-
 
 ### MAYBE MOVE TO NODEJS INSTEAD OF PYTHON?
 
