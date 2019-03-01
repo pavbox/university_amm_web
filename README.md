@@ -3,52 +3,12 @@
 
 ```
 
-  Небольшой сайт для группы в универе. Будет содержать расписание, всякие поментки и прочее.
+  Небольшой сайт для группы в универе. Будет содержать расписание, пометки и прочее.
   Банально для удобства. Тут проще хранить важную инфу, чем в чате.
 
 ```
 
-Software stack
-
-```
-
-backend:
-
-- Python (Flask framework)
-- Mongo Database
-- RESTful API
-- Docker
-
-frontend:
-
-- React (native Javascript)
-- Redux and router
-- _bem styles
-- webpack 4
-- stylus or css
-
-```
-
-Architecture and guides
-
-```
-
-- SOA + MVC
-- pep8 style guides
-
-```
-
-Advanced Things
-
-```
-
-- try to use codecov
-- try CI/CD (backend experience)
-- maybe python hot-reload
-
-```
-
-How to install
+## How to install
 
 ```shell
 
@@ -73,10 +33,11 @@ sh scripts/run.sh # run app
 
 ```
 
-Feature List
+## DOCS for project
 
-- [ ] schedule on current semester (automatic highlight if week is even)
-- [ ] teacher's names
-- [ ] storage of files
-- [ ] information for subject's exams
-- [ ] public polls
+[project info](./PROJECT_INFO.md)
+[feature list](./FEATURE_LIST.md)
+[how to contribute (guide)](./HOW_TO_CONTRIBUTE.md)
+[simple todo list (what I'm doing now)](./TODO_LIST.md)
+
+ps: maybe todo will move to issues for project.
