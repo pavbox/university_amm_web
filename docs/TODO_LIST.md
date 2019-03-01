@@ -7,6 +7,7 @@
 - [x] setup webpack production/dev mode
 - [ ] setup more efficient prod/dev mode (minify/etc.)
 - [x] airbnb codestyle refactoring
+- [ ] integration [mocha](https://webpack.js.org/loaders/mocha-loader/) tests
 
 main page
 
