@@ -2,6 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './Table.styl';
 
+import TableRow from '../TableRow';
+
+
 const propTypes = {
   name: PropTypes.string.isRequired,
 };
@@ -11,7 +14,10 @@ class Table extends React.PureComponent {
     const { name } = this.props;
     return (
       <div className="table">
-        <div className="table__row">{name}</div>
+        {name}
+        <TableRow value="some" />
+        <TableRow value="andrey" />
+        <TableRow value="tartar" />
       </div>
     );
   }
