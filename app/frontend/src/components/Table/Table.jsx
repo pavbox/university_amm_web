@@ -15,9 +15,9 @@ class Table extends React.PureComponent {
     return (
       <div className="table">
         {name}
-        <TableRow value="some" />
-        <TableRow value="andrey" />
-        <TableRow value="tartar" />
+        <TableRow value="cell in table 1" />
+        <TableRow value="cell in table 2" />
+        <TableRow value="cell in table 3" />
       </div>
     );
   }
