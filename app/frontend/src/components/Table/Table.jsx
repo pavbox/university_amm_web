@@ -6,18 +6,15 @@ import TableRow from '../TableRow';
 
 
 const propTypes = {
-  name: PropTypes.string.isRequired,
+  rowItem: PropTypes.shape.isRequired,
 };
 
 class Table extends React.PureComponent {
   render() {
-    const { name } = this.props;
+    const { rowItem } = this.props;
     return (
       <div className="table">
-        {name}
-        <TableRow value="cell in table 1" />
-        <TableRow value="cell in table 2" />
-        <TableRow value="cell in table 3" />
+        <TableRow name={rowItem.name} subject={rowItem.subject} time={rowItem.time} />
       </div>
     );
   }

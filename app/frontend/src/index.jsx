@@ -13,7 +13,7 @@ ReactDOM.render(
   <div>
     <Container>
       <h1>Расписание</h1>
-      <Table name="Новый день" />
+      <Table rowItem={{ name: 'pavel', subject: 'math', time: 'monday' }} />
       <Button value="Cancel" />
       <Button value="Done" />
       <Link href="https://webpack.js.org/loaders/mocha-loader/" text="mocha" />
