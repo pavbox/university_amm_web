@@ -15,7 +15,6 @@ ReactDOM.render(
       <h1>Расписание</h1>
       <Table rowItem={{ name: 'pavel', subject: 'math', time: 'monday' }} />
       <Button value="Cancel" />
-      <Button value="Done" />
       <Link href="https://webpack.js.org/loaders/mocha-loader/" text="mocha" />
     </Container>
   </div>,

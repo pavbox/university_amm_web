@@ -15,9 +15,9 @@ class TableRow extends React.PureComponent {
     return (
       <div className="table__row">
         <div>
-          <div>{name}</div>
-          <div>{subject}</div>
-          <div>{time}</div>
+          <div className="table__name">{name}</div>
+          <div className="table__subject">{subject}</div>
+          <div className="table__time">{time}</div>
         </div>
       </div>
     );

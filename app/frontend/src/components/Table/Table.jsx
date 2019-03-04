@@ -4,7 +4,6 @@ import './Table.styl';
 
 import TableRow from '../TableRow';
 
-
 const propTypes = {
   rowItem: PropTypes.shape.isRequired,
 };
