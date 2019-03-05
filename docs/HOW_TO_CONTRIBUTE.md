@@ -15,13 +15,13 @@ Frontend:
 
 1. node + npm
 2. atom (or another text editor)
-3. es-lint plugins for editor
+3. es-lint plugin for editor
 
 Backend:
 
 1. Python v.3.5.x (and newer)
 2. Pip package manager
-3. [future] Docker, k8s containers
+3. [in future] Docker, k8s containers
 
 Recommendation:
 
@@ -63,13 +63,13 @@ Next, go to the app/frontend folder and install dependencies via `npm i` command
 | webpack  |^.29.5|no|
 | webpack-cli  |3.2.3|no|
 | webpack-dev-server  |3.2.1|no|
-|:-------------|---------:|:------:|
+||||
 | prop-types  |^5.7.2|no|
 | react  |^6.8.3|no|
 | react-dom  |^6.8.3|no|
 | react-redux  |6.0.1|no|
 | redux  |4.0.1|no|
-|:-------------|---------:|:------:|
+||||
 
 
 ### EXTRA LINT RULES
@@ -83,7 +83,7 @@ We will use [es-linter](https://eslint.org) as manual linter of the project.
 Easy way for use:
 1. Install [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb).
 2. Install dependencies via `npx install-peerdeps --dev eslint-config-airbnb` command in the root directory.
-3. Make `.eslintrc` file in the root directory and set next configuration:
+3. [already installed] Make `.eslintrc` file in the root directory and set next configuration:
 ```
 {
     "extends": "airbnb",
@@ -93,7 +93,7 @@ Easy way for use:
     }
 }
 ```
-4. `.babelrc` has next plugins `"presets": ["@babel/preset-env", "@babel/preset-react"]`.
+4. [already installed] `.babelrc` has next plugins `"presets": ["@babel/preset-env", "@babel/preset-react"]`.
 5. For atom you need to install next plugins: `apm install linter-eslint` (have a few dependencies).
 
 
@@ -101,7 +101,7 @@ Easy way for use:
 Some rules:
 1. linters and presets have separate files in the root (frontend) directory.
 2. avoid mess configurations in package.json, webpack config and other.
-3. [future] lock dependencies on stable versions of plugins.
+3. [in future] lock dependencies on stable versions of plugins.
 ```
 
 ### SOFTWARE STACK
