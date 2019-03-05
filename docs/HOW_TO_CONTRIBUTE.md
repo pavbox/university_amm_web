@@ -94,7 +94,7 @@ Easy way for use:
 }
 ```
 4. [already installed] `.babelrc` has next plugins `"presets": ["@babel/preset-env", "@babel/preset-react"]`.
-5. For atom you need to install next plugins: `apm install linter-eslint` (have a few dependencies).
+5. For atom you need to install [next plugins](https://atom.io/packages/linter-eslint): `apm install linter-eslint` (have a few dependencies).
 
 
 ```
