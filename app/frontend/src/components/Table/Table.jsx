@@ -14,7 +14,8 @@ class Table extends React.PureComponent {
     const { rowItem } = this.props;
     return (
       <div className="table">
-        <TableButton />
+        <TableButton value="1st week" />
+        <TableButton value="2nd week" />
         <TableRow name={rowItem.name} subject={rowItem.subject} time={rowItem.time} />
       </div>
     );
