@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import './Table.styl';
 
 import TableRow from '../TableRow';
+import TableButton from '../TableButton';
 
 const propTypes = {
   rowItem: PropTypes.shape.isRequired,
@@ -13,6 +14,7 @@ class Table extends React.PureComponent {
     const { rowItem } = this.props;
     return (
       <div className="table">
+        <TableButton />
         <TableRow name={rowItem.name} subject={rowItem.subject} time={rowItem.time} />
       </div>
     );

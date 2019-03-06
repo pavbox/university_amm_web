@@ -1,9 +1,10 @@
 
 import React from 'react';
+import './TableButton.styl';
 
-class TableButton {
+class TableButton extends React.PureComponent {
   render() {
-    return <button type="button">clickme</button>;
+    return <button type="button" className="table__button">clickme</button>;
   }
 }
 
