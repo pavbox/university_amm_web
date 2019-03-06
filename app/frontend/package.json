@@ -1,6 +1,6 @@
 {
   "name": "amm_frontend",
-  "version": "0.3.7",
+  "version": "0.4.5",
   "description": "frontend part of amm website project (evening 2015)",
   "main": "index.js",
   "scripts": {
@@ -51,6 +51,7 @@
     "react-dom": "^16.8.3",
     "react-redux": "^6.0.1",
     "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1",
