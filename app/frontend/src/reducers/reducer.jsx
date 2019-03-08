@@ -1,5 +1,5 @@
 
 export default (state) => {
-  console.log('bobby');
+  console.log(state);
   return state;
 };
